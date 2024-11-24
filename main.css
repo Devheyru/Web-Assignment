@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 100%;
+}
+.Header {
+  display: flex;
+  border: 4px;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  background-color: lightgray;
+  align-items: center;
+  height: 7vh;
+}
+a {
+  text-decoration: none;
+  border: red;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  padding: 8px;
+}
+.signInUp {
+  display: flex;
+  gap: 100%;
+  justify-content: space-around;
+}
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  width: 40%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input {
+  border: none;
+  border-radius: none;
+  width: 100%;
+  box-sizing: unset;
+}
+.frm {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.bodeySection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.SibeBar {
+  background-color: gray;
+  height: 95vh;
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer {
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 5vh;
+}
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

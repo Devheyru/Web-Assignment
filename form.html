@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Standard Form</title>
+    <link rel="stylesheet" href="formStyle.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Standard Form</h1>
+        <form action="#">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name"
+                    name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email"
+                    name="email" required>
+            </div>
+            <div class="form-group">
+                <label
+                    for="password">Password:</label>
+                <input type="password"
+                    id="password" name="password"
+                    required>
+            </div>
+            <div class="form-group">
+                <label>Gender:</label>
+                <label for="male"><input
+                        type="radio" id="male"
+                        name="gender"
+                        value="male"> Male</label>
+                <label for="female"><input
+                        type="radio" id="female"
+                        name="gender"
+                        value="female">
+                    Female</label>
+            </div>
+            <div class="form-group">
+                <label for="country">Age</label>
+                <select id="country"
+                    name="country" required>
+                    <option value="">Select your
+                        age</option>
+                    <option value="">
+                        14-17</option>
+                    <option value="">18-21
+                    </option>
+                    <option value="">
+                        22-25</option>
+                    <option value="">26-29
+                    </option>
+                    <option value="">30+
+                    </option>
+                    <!-- Add more options as needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="country">Departments:
+                </label>
+                <select id="country"
+                    name="country" required>
+                    <option value="">Select your
+                        Department</option>
+                    <option value="">
+                        Software.E</option>
+                    <option value="">Information.T
+                    </option>
+                    <option value="">
+                        Information.S</option>
+                    <option value="">Computer.S
+                    </option>
+                    <option value="">Other
+                    </option>
+                    <!-- Add more options as needed -->
+                </select>
+            </div>
+
+            <!-- <div class="form-group">
+                <label for="hobbies">Favorite
+                    Departments:</label>
+                <label for="department"><input
+                        type="checkbox"
+                        id="department"
+                        name="department"
+                        value="It">
+                    Information
+                    thechnology</label>
+                <label for="department"><input
+                        type="checkbox"
+                        id="department"
+                        name="department"
+                        value="SWEt">
+                    Software.E</label>
+                <label for="department"><input
+                        type="checkbox"
+                        id="department"
+                        name="department"
+                        value="Is">
+                    Information system</label>
+                <label for="department"><input
+                        type="checkbox"
+                        id="department"
+                        name="department"
+                        value="Is">
+                    other</label>
+            </div> -->
+            <button type="submit"
+                class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
